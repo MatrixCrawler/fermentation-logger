@@ -1,0 +1,15 @@
+[Unit]
+Description=Bubblecounter
+After=multi-user.target
+
+[Service]
+User=bubble
+Group=bubble
+Type=idle
+Restart=always
+RestartSec=3
+
+ExecStart=/home/bubble/sensor.py
+
+[Install]
+WantedBy=multi-user.target

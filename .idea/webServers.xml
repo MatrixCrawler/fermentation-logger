@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="34df7e27-0722-499b-9f44-6260821a7038" name="Bubble@Bubblecounter">
+        <fileTransfer rootFolder="/home/bubble" accessType="SFTP" host="192.168.1.37" port="22" sshConfigId="aeaedc7b-70fe-436c-8922-bd8884e21538" sshConfig="bubble@192.168.1.37:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
